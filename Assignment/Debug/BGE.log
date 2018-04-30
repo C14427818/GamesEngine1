@@ -1,0 +1,83 @@
+﻿Build started 07/12/2017 02:59:40.
+     1>Project "E:\BGE\BGE\BGE.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\VS\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\bge\bge\lab5.h(7): warning C4005: 'FOUNTAIN_RADIUS' : macro redefinition
+                 e:\bge\bge\lab4.h(7) : see previous definition of 'FOUNTAIN_RADIUS'
+     1>e:\dependencies\speech\v11.0\include\sphelper.h(1235): warning C4996: 'GetVersionExW': was declared deprecated
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(442) : see declaration of 'GetVersionExW'
+       Link:
+         E:\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\BGE\Debug\BGE.exe" /INCREMENTAL /NOLOGO /LIBPATH:E:\Dependencies\Runtime Leap.lib Ws2_32.lib BulletCollision_vs2010_debug.lib BulletDynamics_vs2010_debug.lib LinearMath_vs2010_debug.lib fmodex_vc.lib winmm.lib libovr.lib glew32.lib SDL2.lib SDL2main.lib SDL2_ttf.lib opengl32.lib glu32.lib Kinect20.lib Kinect20.Face.lib Kinect10.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\BGE\Debug\BGE.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\BGE\Debug\BGE.lib" /MACHINE:X86 /PROFILE Debug\Assignment.obj
+         Debug\AttackingState.obj
+         Debug\Buddha.obj
+         Debug\Capsule.obj
+         Debug\Creature.obj
+         Debug\CreatureController.obj
+         Debug\EmptyGame.obj
+         Debug\FlockingScenario.obj
+         Debug\FountainEffect.obj
+         Debug\IdleState.obj
+         Debug\KinectAudioStream.obj
+         Debug\Lab3.obj
+         Debug\Lab4.obj
+         Debug\Lab5.obj
+         Debug\Lab6.obj
+         Debug\Lab7.obj
+         Debug\LazerBeam.obj
+         Debug\LeapHands.obj
+         Debug\ObstacleAvoidanceScenario.obj
+         Debug\Particle.obj
+         Debug\ParticleEffect.obj
+         Debug\PathFollowingScenario.obj
+         Debug\Person.obj
+         Debug\Person2.obj
+         Debug\PhysicsDrawer.obj
+         Debug\Route.obj
+         Debug\Scenario.obj
+         Debug\SceneGraphGame.obj
+         Debug\SkeletonMapper.obj
+         Debug\SnowEffect.obj
+         Debug\State.obj
+         Debug\SteeringGame.obj
+         Debug\Transform.obj
+         Debug\Utils.obj
+         Debug\Exception.obj
+         Debug\Box.obj
+         Debug\Camera.obj
+         Debug\Content.obj
+         Debug\CubeTest.obj
+         Debug\Cylinder.obj
+         Debug\FPSController.obj
+         Debug\Game.obj
+         Debug\GameComponent.obj
+         Debug\Ground.obj
+         Debug\KinematicMotionState.obj
+         Debug\LineDrawer.obj
+         Debug\main.obj
+         Debug\Model.obj
+         Debug\ModelTest.obj
+         Debug\MotionState.obj
+         Debug\Params.obj
+         Debug\PhysicsCamera.obj
+         Debug\PhysicsFactory.obj
+         Debug\PhysicsGame1.obj
+         Debug\PhysicsController.obj
+         Debug\RiftController.obj
+         Debug\SoundSystem.obj
+         Debug\Steerable3DController.obj
+         Debug\Sphere.obj
+         Debug\SteeringControler.obj
+         Debug\TexturedCube.obj
+         Debug\TriangleTest.obj
+         Debug\VectorDrawer.obj
+         Debug\VRGame1.obj
+         Debug\VRGame2.obj
+         Debug\XBoxController.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/PROFILE' specification
+     1>LINK : fatal error LNK1104: cannot open file 'E:\BGE\Debug\BGE.exe'
+     1>Done Building Project "E:\BGE\BGE\BGE.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.21
